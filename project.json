@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "CellularAutomata",
+  "id": "4f25dec6-095a-4a72-a239-15a6894193d7",
+  "version": "2.4.5",
+  "isNew": false
+}
