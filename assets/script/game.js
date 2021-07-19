@@ -64,9 +64,14 @@ cc.Class({
 
     // 开始按钮触发的方法
     pauseGame() {
-        this.pause = !this.pause;
         var text = this.pause ? 'Pause' : 'Start';
-        cc.find('Canvas/bg/pauseBtn/Background/Label').getComponent(cc.Label).sring = text;
+        this.pause = !this.pause;
+        // console.log(text);
+        // cc.find('Canvas/bg/pauseBtn/Background/Label').getComponent(cc.Label).sring = text;
+        let btnNode = cc.find("Canvas/bg/pauseBtn");
+        let btnLabelNode = cc.find("Background/Label", btnNode);
+        let btnLabel = btnLabelNode.getComponent(cc.Label);
+        btnLabel.string = text;
     },
 
     lifeChange() {

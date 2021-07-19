@@ -58,9 +58,14 @@ cc.Class({
   },
   // 开始按钮触发的方法
   pauseGame: function pauseGame() {
-    this.pause = !this.pause;
     var text = this.pause ? 'Pause' : 'Start';
-    cc.find('Canvas/bg/pauseBtn/Background/Label').getComponent(cc.Label).sring = text;
+    this.pause = !this.pause; // console.log(text);
+    // cc.find('Canvas/bg/pauseBtn/Background/Label').getComponent(cc.Label).sring = text;
+
+    var btnNode = cc.find("Canvas/bg/pauseBtn");
+    var btnLabelNode = cc.find("Background/Label", btnNode);
+    var btnLabel = btnLabelNode.getComponent(cc.Label);
+    btnLabel.string = text;
   },
   lifeChange: function lifeChange() {
     var nowStateMap = []; // 当前细胞的状态

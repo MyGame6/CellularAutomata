@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 82,
-      "y": 6,
+      "x": 59,
+      "y": 3,
       "width": 1280,
       "height": 726,
       "layout": {
@@ -86,7 +86,8 @@
         "timeline",
         "game-window"
       ]
-    }
+    },
+    "worker": {}
   },
   "panels": {
     "preferences": {

@@ -571,7 +571,7 @@
       "__id__": 7
     },
     "asset": {
-      "__uuid__": "0449dfa7-f74d-439b-a488-c2bb4a1bd80a"
+      "__uuid__": "600b3940-4d11-4bf0-801c-9818dd1c0d3e"
     },
     "fileId": "29+6O03GdMb7YdNA+LSW8X",
     "sync": false
@@ -627,7 +627,7 @@
       "__id__": 7
     },
     "asset": {
-      "__uuid__": "0449dfa7-f74d-439b-a488-c2bb4a1bd80a"
+      "__uuid__": "600b3940-4d11-4bf0-801c-9818dd1c0d3e"
     },
     "fileId": "",
     "sync": false
@@ -1085,7 +1085,7 @@
     },
     "_enabled": true,
     "cellPrefab": {
-      "__uuid__": "0449dfa7-f74d-439b-a488-c2bb4a1bd80a"
+      "__uuid__": "600b3940-4d11-4bf0-801c-9818dd1c0d3e"
     },
     "cellAreaNode": {
       "__id__": 6
